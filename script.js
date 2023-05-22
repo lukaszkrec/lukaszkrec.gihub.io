@@ -98,6 +98,7 @@ window.SpeechRecognition = window.SpeechRecognition       ||
         // Start recognising
         recognizer.onresult = function(event) {
           transcription.textContent = '';
+          console.log(event)
 
           for (var i = event.resultIndex; i < event.results.length; i++) {
             if (event.results[i].isFinal) {
