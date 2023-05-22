@@ -102,10 +102,10 @@ window.SpeechRecognition = window.SpeechRecognition       ||
           for (var i = event.resultIndex; i < event.results.length; i++) {
             if (event.results[i].isFinal) {
               transcription.textContent = event.results[i][0].transcript + ' (Confidence: ' + event.results[i][0].confidence + ')';
-              document.body.style.background = event.results[i][0].transcript;
+              document.body.style.background = transcription.textContent;
             } else {
               transcription.textContent += event.results[i][0].transcript;
-              document.body.style.background = event.results[i][0].transcript;
+              document.body.style.background = transcription.textContent;
             }
           }
         };
