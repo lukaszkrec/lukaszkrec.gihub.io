@@ -104,10 +104,12 @@ window.SpeechRecognition = window.SpeechRecognition       ||
             if (event.results[i].isFinal) {
               transcription.textContent = event.results[i][0].transcript + ' (Confidence: ' + event.results[i][0].confidence + ')';
               log.innerHTML =  event.results[i][0].transcript;
-              document.body.style.background = event.results[i][0].transcript;
+//               document.body.style.background = event.results[i][0].transcript;
+              document.body.style.backgroundColor = "#AA0000";
             } else {
               transcription.textContent += event.results[i][0].transcript;
-              document.body.style.background =  event.results[i][0].transcript;
+//               document.body.style.background =  event.results[i][0].transcript;
+              document.body.style.backgroundColor = "#AA0000";
               log.innerHTML =  event.results[i][0].transcript;
             }
           }
