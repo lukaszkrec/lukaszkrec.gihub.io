@@ -1,0 +1,28 @@
+{
+  "theme_color": "#f69435",
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/index.html",
+  "name": "aplikacja",
+  "short_name": "apka",
+  "description": "pierwsza apka pwa",
+  "icons": [
+    {
+      "src": "/images/logo.svg",
+      "sizes": "48x48",
+      "type": "image/svg"
+    },
+    {
+      "src": "/images/icons8-fedex.svg",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons8-uber-eats-app-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

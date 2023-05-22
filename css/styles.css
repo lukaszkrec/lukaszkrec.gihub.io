@@ -1,0 +1,33 @@
+#battery-status {
+    height: 50px;
+    width: 150px;
+    border: 1px solid #252525;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#level{
+    font-weight: 700;
+    font-size: 36px;
+    height: 100%;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+}
+
+
+/* #container {
+	margin: 0px auto;
+	width: 500px;
+	height: 375px;
+	border: 10px #333 solid;
+}
+#videoElement {
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+} */
